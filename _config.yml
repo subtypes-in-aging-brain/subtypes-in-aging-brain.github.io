@@ -1,6 +1,6 @@
 # in _config.yml
-title: "Disease Progression Modelling"
-author: The Disease Progression Modelling community
+title: "Subtypes in Aging Brain"
+author: Elisabeth J. Vinke, Alexandra Young, Neil Oxtoby, Daniel Alexander, Vikram Venkatraghavan, M. Arfan Ikram, Meike W. Vernooij
 #logo: images/logo.png
 execute:
   execute_notebooks: "off"
@@ -9,7 +9,7 @@ exclude_patterns: [README.md, pages/notebooks/_template.ipynb, data/README.md]
 
 
 repository:
-  url: https://github.com/Disease-Progression-Modelling/disease-progression-modelling.github.io/
+  url: https://github.com/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io
 
 html:
   use_issues_button: true
