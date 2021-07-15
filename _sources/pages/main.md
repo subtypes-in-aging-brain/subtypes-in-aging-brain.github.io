@@ -1,5 +1,4 @@
-# Disease Progression Modelling
-
+# Subtypes in Aging Brain 
 
 
 ```{figure} ../_static/img/main.jpg
@@ -17,7 +16,7 @@ align: center
 ```{epigraph}
 The **Disease Progression Modelling** community unites medics with researchers and engineers across the physical and life sciences to tackle some of the biggest challenges of 21st-century medicine by harnessing the power of mathematics, computer science, and data.
 
---  This website aims to serve as a portal for Disease Progression Modelling
+--  This website aims to serve as a webapplication for our work on identifying the data-driven subtypes of brain aging
 ```
 `````
 

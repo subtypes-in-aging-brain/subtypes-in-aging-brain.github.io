@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Overview &#8212; Subtypes in Aging Brain</title>
+    <title>Introduction &#8212; Subtypes in Aging Brain</title>
     
   <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -57,8 +57,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Disease Course Sequencing with the Event Based Model" href="sustain/ebm.html" />
-    <link rel="prev" title="Event Based Model" href="../intro/sustain.html" />
+    <link rel="next" title="Event Based Model" href="sustain.html" />
+    <link rel="prev" title="Subtypes in Aging Brain" href="../main.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -98,14 +98,14 @@
   Introduction
  </span>
 </p>
-<ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="../intro/rss.html">
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Rotterdam Scan Study Dataset
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../intro/sustain.html">
+  <a class="reference internal" href="sustain.html">
    Subtype and Staging Inference
   </a>
  </li>
@@ -115,14 +115,14 @@
   Web Application
  </span>
 </p>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../notebooks/overview.html">
    Instructions for using the WebApp
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="sustain/ebm.html">
+  <a class="reference internal" href="../notebooks/sustain/ebm.html">
    Working prototype
   </a>
  </li>
@@ -178,7 +178,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/pages/notebooks/overview.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/pages/intro/rss.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -198,10 +198,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io/issues/new?title=Issue%20on%20page%20%2Fpages/notebooks/overview.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io/issues/new?title=Issue%20on%20page%20%2Fpages/intro/rss.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io/edit/master/pages/notebooks/overview.md"><button
+        <a class="edit-button" href="https://github.com/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io/edit/master/pages/intro/rss.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -229,81 +229,29 @@
         
               <div>
                 
-  <div class="section" id="overview">
-<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
-<div class="tip admonition">
-<p class="admonition-title">TL;DR</p>
-<p>This page gives a short overview of the tutorials that you can find on the website.</p>
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p><em>by Neil Oxtoby</em></p>
+<p>Humans are living longer. With increasing age comes an increase in age-related chronic diseases, such as neurodegenerative diseases of the brain. These conditions cause a plethora of symptoms ranging from cognitive decline through to movement dysfunction.</p>
+<p>The two most common neurodegenerative diseases are Alzheimer’s disease (cognitive+) and Parkinson’s disease (movement+), but there are many more. Even Alzheimer’s and Parkinson’s are heterogeneous conditions without a single definitive progression pattern (such as the famous hypothetical models of Alzheimer’s disease progression).</p>
+<p>The challenges to managing (and investigating) such chronic, as yet untreatable diseases are many and varied. From the research side of things, heterogeneity across groups and individuals limits the utility of studies involving a small number of individuals. The decades-long silent phase of disease prior to symptoms appearing is makes it extremely difficult to study the earliest pathological processes, not to mention the difficulty of recruiting volunteers willing to be observed for such a long time in such studies! For healthcare professionals, these facts present major challenges to early, differential diagnosis, and also to accurate prediction of patient outcomes (prognosis).</p>
+<p>The good news is that there has been a push to perform large observational studies, particularly in Alzheimer’s disease. Increasingly, data sharing initiatives have made this data available to researchers worldwide!</p>
+<p>This has enabled and empowered the emerging field of data-driven Disease Progession Modelling (DPM). DPM is a field of research bridging computer science, mathematics, and medicine that is dedicated to unravelling the mysteries of neurodegenerative disease progression through a balance of imposed domain knowledge (such as from clinical experts) and patterns learned from the data (machine learning).</p>
+<p>There are too many papers to attempt a comprehensive literature review here, but the history of data-driven DPM is documented neatly in (<a class="reference external" href="https://doi.org/10.1097/WCO.0000000000000460">Oxtoby and Alexander, “Imaging plus X…”, Curr Opin Neurol 2017</a>)</p>
+<div class="admonition-further-reading admonition">
+<p class="admonition-title">Further reading</p>
+<ul class="simple">
+<li><p>Pioneering works: (Fonteijn - IPMI 2011 / NeuroImage 2012, Jedynak - NeuroImage 2012, Donohue - Alz&amp;Dem 2014,  Young - Brain 2014, Schiratti - NIPS 2015)</p></li>
+<li><p>DPM is receiving increasing interest, exemplified by several large funded projects (H2020 EuroPOND, UK EPSRC C-PLACID, Predict-AD, Predict-ND, JPND E-DADS)</p></li>
+<li><p>Recent series of high-impact results: (Young - Nature Comms 2018; Oxtoby - Brain 2018; Lorenzi - ICML 2018; Garbarino - IPMI 2019 / NeuroImage 2021; Venkatraghavan - IPMI 2019; Pascuzzo - Acta Neuropathologica 2020; Wijeratne - ISMRM 2020; Eshaghi - Nature Comms 2021; Vogel - Nature Medicine 2021).</p></li>
+<li><p>The field continues to expand, and many of the models are becoming established software, used by clinical partners for research on Alzheimer’s Disease (Lopez-Alvez - HAI 2018), multiple sclerosis (Eshaghi - Brain 2018; Nature Comms 2021), ageing (Vinke - Neurobiol. Aging 2018), Huntington’s disease (Wijeratne - ACTN 2018), and Parkinson’s disease (Iddi - NDD 2018; Oxtoby - CompAge 2020, Brain 2021).</p></li>
+</ul>
 </div>
-<div class="sphinx-bs container pb-4 docutils">
-<div class="row docutils">
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
-<div class="card w-100 shadow docutils">
-<div class="card-header bg-warning text-center docutils">
-<p class="card-text"><strong>Disease Course Sequencing (Event Based Modelling)</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Tutorial 1: A walkthrough of fitting a KDE EBM on simulated data</p>
-<p class="card-text">Tutorial 2: A walkthrough of fitting a DEBM on simulated data</p>
-<p class="card-text">Tutorial 3: (coming soon) A walkthrough of fitting a KDE EBM on real data</p>
-<p class="card-text">Tutorial 4: (coming soon) A walkthrough of fitting a DEBM on real data</p>
-<p class="card-text"><span class="xref myst">Discover</span></p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><span class="sphinx-bs badge badge-primary">Cross-sectional data</span>
-<span class="sphinx-bs badge badge-primary">Probabilistic</span></p>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
-<div class="card w-100 shadow docutils">
-<div class="card-header bg-warning text-center docutils">
-<p class="card-text"><strong>Disease Course Mapping</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Tutorial 1 - Linear Mixed Effect Models limitations</p>
-<p class="card-text">Tutorial 2 - Get ready with Leaspy</p>
-<p class="card-text">Tutorial 3 - Leaspy advanced</p>
-<p class="card-text"><span class="xref myst">Discover</span></p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><span class="sphinx-bs badge badge-primary">Longitudinal data</span>
-<span class="sphinx-bs badge badge-primary">Non linear Mixed-effects model</span>
-<span class="sphinx-bs badge badge-primary">Spatiotemporal trajectory</span></p>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
-<div class="card w-100 shadow docutils">
-<div class="card-header bg-warning text-center docutils">
-<p class="card-text"><strong>GP Progression Model</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Tutorial 1 - (GPPM) GP Progression Model Walkthrough</p>
-<p class="card-text">Tutorial 2 - (GPPM-DS) GP Progression Model Dynamical Systems Walkthrough</p>
-<p class="card-text"><span class="xref myst">Discover</span></p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><span class="sphinx-bs badge badge-primary">Longitudinal data</span>
-<span class="sphinx-bs badge badge-primary">To complete</span></p>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
-<div class="card w-100 shadow docutils">
-<div class="card-header bg-warning text-center docutils">
-<p class="card-text"><strong>Data simulation</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Lorem Ipsum</p>
-<p class="card-text"><span class="xref myst">Discover</span></p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><span class="sphinx-bs badge badge-primary">To complete</span></p>
-</div>
-</div>
-</div>
-</div>
+<div class="warning admonition">
+<p class="admonition-title">Something missing?</p>
+<p>Please get in touch! (Or create a fork - branch - update - commit - pull-request :-) )</p>
+<p>We are more than happy to add it to the page, and also to include related models &amp; tutorials to the website content.</p>
+<p>The website is intended to be a platform for the entire community. Get involved!</p>
 </div>
 </div>
 
@@ -320,7 +268,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./pages/notebooks"
+            path: "./pages/intro"
         },
         predefinedOutput: true
     }
@@ -332,8 +280,8 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="../intro/sustain.html" title="previous page">Event Based Model</a>
-    <a class='right-next' id="next-link" href="sustain/ebm.html" title="next page">Disease Course Sequencing with the Event Based Model</a>
+    <a class='left-prev' id="prev-link" href="../main.html" title="previous page">Subtypes in Aging Brain</a>
+    <a class='right-next' id="next-link" href="sustain.html" title="next page">Event Based Model</a>
 
         </div>
         
