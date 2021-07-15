@@ -14,7 +14,7 @@ The idea of measuring brain health by estimating a brain age has been around for
 `````
 
 
-```{figure} ../../_static/img/EuroPND.png
+```{figure} ../../_static/img/EuroPOND.png
 ---
 name: europond
 align: center
