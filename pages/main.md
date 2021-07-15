@@ -14,7 +14,7 @@ The idea of measuring brain health by estimating a brain age has been around for
 `````
 
 
-```{figure} ../_static/img/EuroPND.png
+```{figure} ../../_static/img/EuroPOND.png
 ---
 name: europond
 align: center
@@ -24,7 +24,7 @@ width: 70%
 ```
 
 
-## ** EuroPOND project in a nutshell **
+## **EuroPOND project in a nutshell**
 
 The EuroPOND initiative is a unique team of scientists spanning computational neuroscience and clinical neurology. Together we are developing computational models and using state-of-the-art data-science techniques to understand a range of neurological disorders. We are learning characteristic patterns of progression directly from large medical data sets including Alzheimer’s disease, Multiple Sclerosis, normal aging, and abnormal brain development in preterm infants. These disease signatures will enable improved diagnosis and management of neurological disorders.
 
@@ -40,8 +40,6 @@ The site offers a way to use the novel insights obtained about brain aging from 
 **Rotterdam Scan Study Dataset**
 ^^^
 
-Recent mathematical development have enable to unveil some aspect of disease progression modelling. We here propose to give an overview of these methods and further links and references for discover them.
-
 
 
 +++
@@ -56,7 +54,6 @@ Recent mathematical development have enable to unveil some aspect of disease pro
 **Method: Subtype and Staging Inference**
 ^^^
 
-To better grasp the intention of each model, we propose few tutorials in the form of Python notebooks that are dedicated to dive in each model
 
 +++
 
@@ -71,7 +68,6 @@ To better grasp the intention of each model, we propose few tutorials in the for
 **Working prototype**
 ^^^
 
-The DPM community is eager to communicate about the most recent developments. For this reason, multiple workshops have been organized to promote its work.
 
 +++
 
