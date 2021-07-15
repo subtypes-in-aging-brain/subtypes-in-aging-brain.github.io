@@ -1,3 +1,0 @@
-# Data Simulation
-
-Lorem Ipsum

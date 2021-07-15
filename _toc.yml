@@ -2,17 +2,17 @@
 
 - part: Introduction
   chapters:
-    - file: pages/models/introduction
-      title: Introduction to RSS
-    - file: pages/models/event_based_model
-      title: Introduction to SuStaIn
+    - file: pages/intro/rss
+      title: Rotterdam Scan Study Dataset
+    - file: pages/intro/sustain
+      title: Subtype and Staging Inference
 
 - part: Web Application
   chapters:
   - file: pages/notebooks/overview
-    title: Instructions for using the web application
+    title: Instructions for using the WebApp
 
-  - file: pages/notebooks/ebm/ebm
+  - file: pages/notebooks/sustain/ebm
     title: Working prototype
 
 - part: Other
