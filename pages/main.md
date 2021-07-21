@@ -51,7 +51,7 @@ The site offers a way to use the novel insights obtained about brain aging from 
 ```
 
 ---
-**Method: Subtype and Staging Inference**
+**Method: Subtype and Stage Inference**
 ^^^
 
 
