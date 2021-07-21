@@ -9,7 +9,9 @@
 
 - part: Web Application
   chapters:
-  - file: pages/notebooks/Webapplication.ipynb
+  - file: pages/notebooks/overview
+    sections:
+      - file: pages/notebooks/sustain/Webapplication.ipynb
     title: WebApp for finding your aging subtype
 
 - part: Other
