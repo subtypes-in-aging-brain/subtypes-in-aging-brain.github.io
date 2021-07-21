@@ -10,10 +10,7 @@
 - part: Web Application
   chapters:
   - file: pages/notebooks/overview
-    title: Instructions for using the WebApp
-
-  - file: pages/notebooks/sustain/ebm
-    title: Working prototype
+    title: WebApp for finding your aging subtype
 
 - part: Other
   chapters:
