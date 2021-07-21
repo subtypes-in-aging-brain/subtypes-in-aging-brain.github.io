@@ -65,7 +65,7 @@ The site offers a way to use the novel insights obtained about brain aging from 
 
 ---
 
-**Working prototype**
+**Overview of the results**
 ^^^
 
 
@@ -73,21 +73,21 @@ The site offers a way to use the novel insights obtained about brain aging from 
 
 ```{link-button} notebooks/overview
 :type: ref
-:text: Find your aging subtype
+:text: Overview of the results in this work
 :classes: btn-outline-primary btn-block stretched-link
 ```
 
 ---
 
-**Webapp in Google Colab**
+**Web application**
 ^^^
 
 
 +++
 
-```{link-button} https://colab.research.google.com/github/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io/blob/master/pages/notebooks/sustain/Webapplication.ipynb
+```{link-button} notebooks/sustain/Webapplication
 :type: ref
-:text: Meet the authors of this work
+:text: Find your aging subtype
 :classes: btn-outline-primary btn-block stretched-link
 ```
 

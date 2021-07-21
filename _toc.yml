@@ -12,4 +12,4 @@
   - file: pages/notebooks/overview
     sections:
       - file: pages/notebooks/sustain/Webapplication.ipynb
-    title: Overview of the Webapp
+    title: Overview of the results
