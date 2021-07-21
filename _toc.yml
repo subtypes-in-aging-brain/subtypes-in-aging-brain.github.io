@@ -12,4 +12,4 @@
   - file: pages/notebooks/overview
     sections:
       - file: pages/notebooks/sustain/Webapplication.ipynb
-    title: WebApp for finding your aging subtype
+    title: Overview of the Webapp

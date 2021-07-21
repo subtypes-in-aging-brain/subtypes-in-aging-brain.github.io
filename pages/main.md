@@ -44,7 +44,7 @@ The site offers a way to use the novel insights obtained about brain aging from 
 
 +++
 
-```{link-button} pages/intro/rss
+```{link-button} intro/rss
 :type: ref
 :text: Learn more about the dataset 
 :classes: btn-outline-primary btn-block stretched-link
@@ -57,7 +57,7 @@ The site offers a way to use the novel insights obtained about brain aging from 
 
 +++
 
-```{link-button} pages/intro/sustain
+```{link-button} intro/sustain
 :type: ref
 :text: Learn more about the method used
 :classes: btn-outline-primary btn-block stretched-link
@@ -71,7 +71,7 @@ The site offers a way to use the novel insights obtained about brain aging from 
 
 +++
 
-```{link-button} pages/notebooks/sustain
+```{link-button} notebooks/overview
 :type: ref
 :text: Find your aging subtype
 :classes: btn-outline-primary btn-block stretched-link
@@ -79,13 +79,13 @@ The site offers a way to use the novel insights obtained about brain aging from 
 
 ---
 
-**Authors**
+**Webapp in Google Colab**
 ^^^
 
 
 +++
 
-```{link-button} other/contributors
+```{link-button} https://colab.research.google.com/github/subtypes-in-aging-brain/subtypes-in-aging-brain.github.io/blob/master/pages/notebooks/sustain/Webapplication.ipynb
 :type: ref
 :text: Meet the authors of this work
 :classes: btn-outline-primary btn-block stretched-link
